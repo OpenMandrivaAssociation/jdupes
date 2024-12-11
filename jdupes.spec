@@ -1,13 +1,11 @@
 Summary:	A fast and powerful cross-platform duplicate file finder
 Name:		jdupes
-Version:	1.27.3
+Version:	1.28.0
 Release:	1
 License:	MIT
 Group:		File tools
 URL:		https://codeberg.org/jbruchon/jdupes
 Source0:	https://codeberg.org/jbruchon/jdupes/archive/v%{version}.tar.gz
-Patch0:		0001-hashdb-backport-safety-fixes-from-master.patch
-
 BuildRequires:	jodycode-devel
 
 %description
